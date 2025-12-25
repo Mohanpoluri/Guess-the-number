@@ -1,0 +1,139 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #704F4F;
+}
+
+.container {
+    width: 40rem;
+    height: 35rem;
+    background-color: #A77979;
+    border-radius: 7rem;
+    box-shadow: 0.7rem 0.7rem 0.7rem 0.7rem rgba(114, 59, 59, 0.692);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 1rem;
+
+}
+
+.inner {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+input[type="text"] {
+    width: 40%;
+    height: 3rem;
+    border-radius: 7rem;
+    border: 2px solid #704F4F;
+    background-color: #FFC4C4;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+input[type="text"]:hover {
+    border: 1px dashed #000;
+    transform: scale(1.1);
+}
+
+input[type="text"]::placeholder {
+    color: #000;
+}
+
+input[type="button"] {
+    flex-basis: 30%;
+    height: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #DEB6AB;
+    border-radius: 1rem;
+    border: 2px solid #704F4F;
+    font-size:1.5rem;
+    transition: all linear ease-in-out 3s;
+}
+
+input[type="button"]:hover {
+    border: 2px solid #000;
+    transform: scale(1.1);
+}
+
+.line{
+    margin-top: 1rem;
+    width: 80%;
+    height: 0.2rem;
+    opacity: 8;
+    background-color: #704F4F;
+}
+
+
+.inner2{
+    width: 100%;
+     margin-top: 2rem;
+}
+.inner2 input[type="text"] {
+    width: 80%;
+    height: 3rem;
+    margin-left: 4rem;
+    border-radius: 7rem;
+    border: 2px solid #704F4F;
+    background-color: #FFC4C1;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 500;
+font-size: 1.25rem;
+    font-style: normal;
+}
+
+.inner2 input[type="button"] {
+    flex-basis: 30%;
+    height: 3rem;
+    width: 10rem;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #DEB6AB;
+    border-radius: 1rem;
+    border: 2px solid #704F4F;
+    font-size:1.5rem;
+}
+.msg p{
+    margin-top: 1rem;
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.status{
+     margin-top: 1rem;
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}

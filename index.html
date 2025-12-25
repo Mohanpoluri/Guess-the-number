@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Gemstones&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="outer">
+        <div class="container">
+            <h1>🎯 Guess the Secret Number</h1>
+
+            <div class="inner">
+                <input type="text" id="min-val" placeholder="Minimum value " required />
+                <input type="text" id="max-val" placeholder="Maximum value" required />
+                <div class="msg">
+                    <p>
+                        Enter the minimum and maximum value and <b>click on generate </b>
+                    </p>
+                </div>
+                <input type="button" class="btn" value="Generate" onclick="genNew()"/>
+            </div>
+            <div class="line"></div>
+            <div class="status">Let's have some fun 😁</div>
+            <div class="inner2">
+                <input id="guessed-val" type="text" placeholder="Guess the number" required />
+                <input class="guess-btn" type="button" class="btn" value="Check" onclick="checkVal()" />
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
