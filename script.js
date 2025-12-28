@@ -1,7 +1,9 @@
 let key;
 let min;
 let max;
+let count;
 function genNew(){
+    count=0;
      min=document.getElementById("min-val").value;
      max=document.getElementById("max-val").value;
     if(min==""||max==""){
@@ -28,8 +30,9 @@ function checkVal(){
         alert("Value is not with in the range");
         return;
     }
+    count++;
     if(guess===key){
-        document.querySelector(".status").textContent="You won the game 🥳";
+        document.querySelector(".status").textContent=`You won the game 🥳 after ${count} number of guesses `;
         return;
     }else if(guess>key){
         document.querySelector(".status").textContent="Your guess is greater than the value ⬆️";
