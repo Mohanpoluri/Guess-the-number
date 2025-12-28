@@ -32,7 +32,7 @@ function checkVal(){
     }
     count++;
     if(guess===key){
-        document.querySelector(".status").textContent=`You won the game 🥳 after ${count} number of guesses `;
+        document.querySelector(".status").textContent=`You won the game 🥳 after ${count} chances`;
         return;
     }else if(guess>key){
         document.querySelector(".status").textContent="Your guess is greater than the value ⬆️";
